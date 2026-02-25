@@ -17,5 +17,4 @@ jobs:
     needs: deploy-codigofacilito
     runs-on: ubuntu-latest
     steps:
-     -name: Hola Mundo
      -run: echo "Hola Job2"
