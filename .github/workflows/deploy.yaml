@@ -1,5 +1,6 @@
 name: "Deploy codigofacilito"
 
+#accion triguer
 on: 
   push:
     branches: ["main"]
@@ -12,5 +13,6 @@ jobs:
      - run: echo "Correr migraciones"
      - run: echo "Generar binario"
      - run: echo "Publicar version"
+     - run: echo "publicar version en master"
 
     
