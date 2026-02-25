@@ -17,4 +17,4 @@ jobs:
     needs: deploy-codigofacilito
     runs-on: ubuntu-latest
     steps:
-     -run: echo "Hola Job2"
+     - run: echo "Hola Job2"
