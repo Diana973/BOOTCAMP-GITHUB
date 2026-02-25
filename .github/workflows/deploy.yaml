@@ -13,4 +13,9 @@ jobs:
      - run: echo "Generar binario"
      - run: echo "Publicar version"
 
-    
+  deploy2-codigofacilito:
+    needs: deploy-codigofacilito
+    runs-on: ubuntu-latest
+    steps:
+     -name: Hola Mundo
+     -run: echo "Hola Job2"
