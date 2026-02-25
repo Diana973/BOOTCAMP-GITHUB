@@ -14,6 +14,7 @@ jobs:
      - run: echo "Publicar version"
 
   deploy2-codigofacilito:
+    if: ${{ github.ref == 'refs/heads/main'}}
     needs: deploy-codigofacilito
     runs-on: ubuntu-latest
     steps:
